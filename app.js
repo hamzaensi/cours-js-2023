@@ -34,40 +34,59 @@ console.timeEnd('Hello');
 // Basic 2 
 // var, let, const
 
-var name1 = 'John Doe';
-console.log(name1);
-name1 = 'Steve Smith';
-console.log(name1);
+// var name1 = 'John Doe';
+// console.log(name1);
+// name1 = 'Steve Smith';
+// console.log(name1);
 
-//  Init var
-var greeting;
-console.log(greeting);
-greeting = 'Hello';
-console.log(greeting);
+// //  Init var
+// var greeting;
+// console.log(greeting);
+// greeting = 'Hello';
+// console.log(greeting);
 
-//  letters, numbers, _, $
-// Can not start with number
-//var x1 ='test';
-//  Multi word vars
-var firstName = 'John'; // Camel case
-// var first_name = 'Sara'; // Underscore
-// var FirstName = 'Tom'; // Pascal case
-// var firstname;
+// //  letters, numbers, _, $
+// // Can not start with number
+// //var x1 ='test';
+// //  Multi word vars
+// var firstName = 'John'; // Camel case
+// // var first_name = 'Sara'; // Underscore
+// // var FirstName = 'Tom'; // Pascal case
+// // var firstname;
 
 
 
 // LET
-// let name;
-// name = 'John Doe';
-// console.log(name);
-// name = 'Steve Smith';
-// console.log(name);
+  //  let name1;
+  //  name1 = 'John Doe';
+  //  console.log(name1);
+  //  name1 = 'Steve Smith';
+  //  console.log(name1);
 
 
-// CONST
-// const name = 'John';
-// console.log(name);
-// Can not reassign
-// name = 'Sara';
-// Have to assign a value
-// const greeting;
+//CONST
+// const name2 = 'John';
+// console.log(name2);
+//Can not reassign
+//name2 = 'Sara';
+//Have to assign a value
+// const greeting='hello';
+
+
+
+// const person = {
+//   name: 'John',
+//   age: 30
+// }
+// console.log(person);
+
+// person.name = 'Sara';
+// person.age = 32;
+
+// console.log(person);
+
+// const numbers = [1,2,3,4,5];
+// console.log(numbers);
+// numbers.push(6);
+
+// console.log(numbers);
