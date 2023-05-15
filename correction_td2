@@ -1,0 +1,90 @@
+### Exercice 1 : ###
+#################### 
+On vous donne le code HTML suivant : 
+<body>
+<ul></ul>
+</body>
+<script>
+const fruitList = ["apple", "banana", "tomato"];
+// code ici 
+</script>
+
+Ajouter les éléments de la liste fruitList à la liste non ordonnée <ul>.
+
+### Correction Exercice 1 ###
+
+<body>
+<ul></ul>
+</body>
+<script>
+const fruitList = ["apple", "banana", "tomato"];
+const ul = document.querySelector('ul'); 
+fruitList.forEach(fruit => {
+const li = document.createElement('li');
+li.textContent = fruit; 
+ul.appendChild(li);
+});
+</script>
+
+### Exercice 2 : ###
+#################### 
+On vous donne le code HTML suivant : 
+<body>
+<div></div>
+</body>
+<script>
+const imageSrc = "https://isetta.rnu.tn/stylesheets/images/header/logo.png";
+// code ici 
+</script>
+
+Ajoutez le logo en tant qu'élément enfant à l'élément div existant.
+
+
+###Correction Exercice 2 ### 
+### Exercice 2 : ###
+#################### 
+On vous donne le code HTML suivant : 
+<body>
+<div></div>
+</body>
+<script>
+const imageSrc = "https://isetta.rnu.tn/stylesheets/images/header/logo.png";
+const div = document.querySelector("div");
+const img = document.createElement('img'); 
+img.src = imageSrc ; 
+div.appendChild(img);
+</script>
+
+### Exercice 3 : ###
+#################### 
+<body>
+<p id ='text'>changer style</p> 
+<div>
+<button id="jsstyle"
+onclick="js_style()">Style</button>
+</div>
+<script>
+// code here 
+</script>
+</body>
+En cliquant sur le bouton, la police, la taille et la couleur du texte du paragraphe seront modifiées.
+
+### Correction Exercice 3 : ###
+#################### 
+<body>
+<p id ='text'>changer style</p> 
+<div>
+<button id="jsstyle"
+onclick="js_style()">Style</button>
+</div>
+<script>
+function js_style()
+{
+  text.style.fontSize ='14pt'; 
+  text.style.fontFamily='Comic Sans MS'; 
+  text.style.color ='green';
+}
+</script>
+</body>
+
+
